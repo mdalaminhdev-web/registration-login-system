@@ -10,7 +10,7 @@ const initial = { name: "", email: "", password: "", phone: "", gender: "" };
 
 export default function Register() {
   const [form, setForm] = useState(initial);
-  const [error, setError] = useState("");
+  const [error,  setError] = useState("");
   const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
