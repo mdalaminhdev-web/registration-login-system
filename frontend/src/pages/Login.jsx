@@ -7,7 +7,7 @@ import InputField from "../components/InputField";
 import LoadingSpinner from "../components/LoadingSpinner";
 import { useAuth } from "../hooks/useAuth";
 
-export default function Login() {
+export default  function Login() {
   const [form, setForm] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
