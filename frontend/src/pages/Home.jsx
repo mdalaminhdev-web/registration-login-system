@@ -7,7 +7,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
         <div className="max-w-3xl">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">
-            <Database size={16} /> Project For Practice
+            <Database  size={16} /> Project For Practice
           </div>
           <h1 className="text-4xl font-black tracking-tight sm:text-6xl">Registration & Login System</h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
