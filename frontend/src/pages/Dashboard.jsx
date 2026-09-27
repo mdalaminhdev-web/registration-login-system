@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Database, Users, UserRound, CalendarDays } from "lucide-react";
 import api from "../services/api";
 import DashboardLayout from "../layouts/DashboardLayout";
-import { useAuth } from "../hooks/useAuth";
+import { useAuth } from  "../hooks/useAuth";
 
 export default function Dashboard() {
   const { user } = useAuth();
